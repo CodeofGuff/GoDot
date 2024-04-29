@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://co3vq1qswsw27"
+path="res://.godot/imported/ha-hesitate.wav-7371586cf649dbced8dc6f1d3c4df3ca.sample"
+
+[deps]
+
+source_file="res://Game Sound Assets/HA2/ha-hesitate.wav"
+dest_files=["res://.godot/imported/ha-hesitate.wav-7371586cf649dbced8dc6f1d3c4df3ca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

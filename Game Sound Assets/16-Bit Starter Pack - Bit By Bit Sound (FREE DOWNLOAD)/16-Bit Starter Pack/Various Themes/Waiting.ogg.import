@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dxne40yxp6ri3"
+path="res://.godot/imported/Waiting.ogg-c9a0ff419e74ba3bcd5348f4fb1c820e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Various Themes/Waiting.ogg"
+dest_files=["res://.godot/imported/Waiting.ogg-c9a0ff419e74ba3bcd5348f4fb1c820e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

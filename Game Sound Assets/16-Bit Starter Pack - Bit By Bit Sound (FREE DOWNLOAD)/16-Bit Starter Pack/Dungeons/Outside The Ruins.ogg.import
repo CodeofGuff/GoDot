@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bpyx1e22hksln"
+path="res://.godot/imported/Outside The Ruins.ogg-5ce7ff5d898f3b3e0226e82973217a36.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Dungeons/Outside The Ruins.ogg"
+dest_files=["res://.godot/imported/Outside The Ruins.ogg-5ce7ff5d898f3b3e0226e82973217a36.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

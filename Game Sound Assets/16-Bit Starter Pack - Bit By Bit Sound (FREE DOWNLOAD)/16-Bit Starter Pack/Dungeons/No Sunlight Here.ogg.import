@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cqwflxn23emk"
+path="res://.godot/imported/No Sunlight Here.ogg-881ca04c61dfcbff0716d9f844a26266.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Dungeons/No Sunlight Here.ogg"
+dest_files=["res://.godot/imported/No Sunlight Here.ogg-881ca04c61dfcbff0716d9f844a26266.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

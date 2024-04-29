@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c4f88lq7jhxmk"
+path="res://.godot/imported/We're Bird People Now.ogg-d318bd48caf9e2bd5095cc2cae589e9b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Overworld/We're Bird People Now.ogg"
+dest_files=["res://.godot/imported/We're Bird People Now.ogg-d318bd48caf9e2bd5095cc2cae589e9b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

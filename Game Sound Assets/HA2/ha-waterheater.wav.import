@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3f6hqirc00fu"
+path="res://.godot/imported/ha-waterheater.wav-c14c58ec45102822c1465e47181c4a80.sample"
+
+[deps]
+
+source_file="res://Game Sound Assets/HA2/ha-waterheater.wav"
+dest_files=["res://.godot/imported/ha-waterheater.wav-c14c58ec45102822c1465e47181c4a80.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cq12wqqkjnpdo"
+path="res://.godot/imported/Past, Present, Future.ogg-a7b93f3af63d60941cb109956aa832c8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Various Themes/Past, Present, Future.ogg"
+dest_files=["res://.godot/imported/Past, Present, Future.ogg-a7b93f3af63d60941cb109956aa832c8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

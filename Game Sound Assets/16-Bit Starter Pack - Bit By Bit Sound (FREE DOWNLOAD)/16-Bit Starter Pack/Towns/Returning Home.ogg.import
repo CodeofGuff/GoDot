@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dsx83psa8fsqe"
+path="res://.godot/imported/Returning Home.ogg-dd0ae5c0069390b6c99b0e79face42bc.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Towns/Returning Home.ogg"
+dest_files=["res://.godot/imported/Returning Home.ogg-dd0ae5c0069390b6c99b0e79face42bc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://di72ovkauor5x"
+path="res://.godot/imported/Long Road Ahead.ogg-e14397eed300e0a75bc9796badaf2aff.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Overworld/Long Road Ahead.ogg"
+dest_files=["res://.godot/imported/Long Road Ahead.ogg-e14397eed300e0a75bc9796badaf2aff.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

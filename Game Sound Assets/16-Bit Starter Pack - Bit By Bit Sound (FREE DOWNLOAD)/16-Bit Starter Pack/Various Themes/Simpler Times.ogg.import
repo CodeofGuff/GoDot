@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d2vj6pix0v1xv"
+path="res://.godot/imported/Simpler Times.ogg-7b32a55530553feff44bd8f9828172f1.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Various Themes/Simpler Times.ogg"
+dest_files=["res://.godot/imported/Simpler Times.ogg-7b32a55530553feff44bd8f9828172f1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

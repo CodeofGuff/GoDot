@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cavvp1c5eq3fx"
+path="res://.godot/imported/Smooth As Glass.ogg-93146f9db11342c702772691412cd6d1.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Towns/Smooth As Glass.ogg"
+dest_files=["res://.godot/imported/Smooth As Glass.ogg-93146f9db11342c702772691412cd6d1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

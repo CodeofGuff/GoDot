@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cd3d8qg67bjjj"
+path="res://.godot/imported/Farm Life.ogg-0654c5371dd3ca6a396477c9189c5d71.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Towns/Farm Life.ogg"
+dest_files=["res://.godot/imported/Farm Life.ogg-0654c5371dd3ca6a396477c9189c5d71.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

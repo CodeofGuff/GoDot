@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://3763tjo6tliw"
+path="res://.godot/imported/How Did We Do.ogg-f1952353d0e5be3c612a1ad61f666b41.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Various Themes/How Did We Do.ogg"
+dest_files=["res://.godot/imported/How Did We Do.ogg-f1952353d0e5be3c612a1ad61f666b41.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

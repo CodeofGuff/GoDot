@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bt18p7gsg152q"
+path="res://.godot/imported/Ghost Alley.ogg-b79ec52bd6c7be6521a6d90591fe4cdc.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Towns/Ghost Alley.ogg"
+dest_files=["res://.godot/imported/Ghost Alley.ogg-b79ec52bd6c7be6521a6d90591fe4cdc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

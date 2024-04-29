@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c1x0hw556ea0s"
+path="res://.godot/imported/Heavy Air.ogg-32f5c50d2926a6b42926e7e8c35ba6c9.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Dungeons/Heavy Air.ogg"
+dest_files=["res://.godot/imported/Heavy Air.ogg-32f5c50d2926a6b42926e7e8c35ba6c9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

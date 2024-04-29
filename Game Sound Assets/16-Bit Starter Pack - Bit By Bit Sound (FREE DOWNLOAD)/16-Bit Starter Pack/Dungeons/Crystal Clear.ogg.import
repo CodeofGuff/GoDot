@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dvfrox4xr5iw1"
+path="res://.godot/imported/Crystal Clear.ogg-7346c18a37e2611a7f242cf4cb589f02.oggvorbisstr"
+
+[deps]
+
+source_file="res://Game Sound Assets/16-Bit Starter Pack - Bit By Bit Sound (FREE DOWNLOAD)/16-Bit Starter Pack/Dungeons/Crystal Clear.ogg"
+dest_files=["res://.godot/imported/Crystal Clear.ogg-7346c18a37e2611a7f242cf4cb589f02.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
