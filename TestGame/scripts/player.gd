@@ -18,6 +18,8 @@ func _physics_process(delta):
 	
 	# Applying gravity
 	velocity.y += gravity * delta
+	
+	# hello world
 
 	
 func player_movement(delta):
