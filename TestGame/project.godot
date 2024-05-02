@@ -17,7 +17,7 @@ config/icon="res://art/icon.svg"
 
 [display]
 
-window/stretch/scale=1.78
+window/stretch/scale=4.01
 
 [input]
 
