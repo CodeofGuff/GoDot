@@ -151,8 +151,9 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_la6rx"]
-radius = 23.0043
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ul81l"]
+radius = 12.4359
+height = 45.0572
 
 [node name="bullet1" type="Area2D"]
 collision_layer = 3
@@ -161,12 +162,13 @@ script = ExtResource("1_qx4nt")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(0, 0.444439)
+position = Vector2(0, 1)
 scale = Vector2(0.661817, 0.685546)
 sprite_frames = SubResource("SpriteFrames_01fh3")
 animation = &"main"
 frame_progress = 0.740584
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 0.444443)
-shape = SubResource("CircleShape2D_la6rx")
+position = Vector2(2.38419e-07, 1)
+rotation = -0.50561
+shape = SubResource("CapsuleShape2D_ul81l")
