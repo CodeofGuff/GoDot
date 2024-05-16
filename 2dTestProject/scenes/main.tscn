@@ -28,8 +28,6 @@ curve = SubResource("Curve2D_uglrw")
 position = Vector2(0, -5)
 
 [node name="level_1" parent="." instance=ExtResource("4_y3g4a")]
-collision_layer = 0
-collision_mask = 0
 
 [node name="Player" parent="." instance=ExtResource("3_dnfpc")]
 position = Vector2(272, 1013)
