@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://q3lmlcoicdkr"]
+
+[sub_resource type="Curve2D" id="Curve2D_uglrw"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, -5, 0, 0, 0, 0, 570, -5, 0, 0, 0, 0, 571, -27, 0, 0, 0, 0, 4, -29, 0, 0, 0, 0, 1, -4, 0, 0, 0, 0, 0, -5)
+}
+point_count = 6
+
+[node name="Main" type="Node"]
+
+[node name="Object Timer" type="Timer" parent="."]
+
+[node name="Start Timer" type="Timer" parent="."]
+
+[node name="Objects" type="Path2D" parent="."]
+curve = SubResource("Curve2D_uglrw")
+
+[node name="Object Spawn" type="PathFollow2D" parent="Objects"]
+position = Vector2(0, -5)

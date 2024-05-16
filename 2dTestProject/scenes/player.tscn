@@ -1,0 +1,70 @@
+[gd_scene load_steps=10 format=3 uid="uid://cdj5jud2ejoiy"]
+
+[ext_resource type="Texture2D" uid="uid://dhbnurl6ubqn7" path="res://art/shield droid/walk.png" id="2_4c3me"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g6yqo"]
+atlas = ExtResource("2_4c3me")
+region = Rect2(0, 0, 90, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vd0mf"]
+atlas = ExtResource("2_4c3me")
+region = Rect2(0, 31, 90, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cbk6"]
+atlas = ExtResource("2_4c3me")
+region = Rect2(0, 62, 90, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_scof7"]
+atlas = ExtResource("2_4c3me")
+region = Rect2(0, 93, 90, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llybq"]
+atlas = ExtResource("2_4c3me")
+region = Rect2(0, 124, 90, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cix2u"]
+atlas = ExtResource("2_4c3me")
+region = Rect2(0, 155, 90, 31)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gdeqo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6yqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vd0mf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8cbk6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_scof7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llybq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cix2u")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 18.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5anmc"]
+radius = 20.0
+height = 120.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_gdeqo")
+animation = &"walk"
+frame = 1
+frame_progress = 0.612515
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 17)
+shape = SubResource("CapsuleShape2D_5anmc")
