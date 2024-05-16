@@ -194,7 +194,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 7.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -242,7 +242,7 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5anmc"]
 radius = 20.0
-height = 120.0
+height = 140.0
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_p1wat")
@@ -254,5 +254,5 @@ sprite_frames = SubResource("SpriteFrames_gdeqo")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 17)
+position = Vector2(-3, 9)
 shape = SubResource("CapsuleShape2D_5anmc")

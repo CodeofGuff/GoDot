@@ -1,4 +1,4 @@
-[gd_scene load_steps=63 format=3 uid="uid://cuu2he3bf86jn"]
+[gd_scene load_steps=64 format=3 uid="uid://tn18px6wri78"]
 
 [ext_resource type="Texture2D" uid="uid://btiqs4tk5k4vj" path="res://art/FXpack13/FXpack13/Effect1/1.png" id="1_jvwrf"]
 [ext_resource type="Texture2D" uid="uid://bq22ifdyjfdjy" path="res://art/FXpack13/FXpack13/Effect1/2.png" id="2_s5mws"]
@@ -60,6 +60,20 @@
 [ext_resource type="Texture2D" uid="uid://cpd012cdjv1m5" path="res://art/FXpack13/FXpack13/Effect1/58.png" id="58_xdixa"]
 [ext_resource type="Texture2D" uid="uid://bpvpx8cibmpf6" path="res://art/FXpack13/FXpack13/Effect1/59.png" id="59_kdrd4"]
 [ext_resource type="Texture2D" uid="uid://ccj60avhiv0sp" path="res://art/FXpack13/FXpack13/Effect1/60.png" id="60_nfcea"]
+
+[sub_resource type="GDScript" id="GDScript_2rwtn"]
+script/source = "extends RigidBody2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	var object_types = $AnimatedSprite2D.play(\"walk\").get_animation_names()
+	$AnimatedSprite2D.play(object_types[randi() % object_types.size()])
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_35rbc"]
 animations = [{
@@ -254,6 +268,7 @@ radius = 12.0
 
 [node name="Objects" type="RigidBody2D"]
 scale = Vector2(2, 2)
+script = SubResource("GDScript_2rwtn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 rotation = 1.5708

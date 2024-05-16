@@ -1,20 +1,7 @@
 extends Node
 
-@export var objects: PackedScene
+
 var score
-
-
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 
 
 func game_over():
@@ -23,5 +10,12 @@ func game_over():
 
 func new_game():
 	score = 0
-	$Player.start($StartPosition.position)
+	$Player.start($level_1)
 	$StartTimer.start()
+	
+func _on_score_timer_timeout():
+	score += 1
+
+func _on_start_timer_timeout():
+	$ObjectTimer.start()
+	$ScoreTimer.start()
