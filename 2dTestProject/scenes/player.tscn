@@ -1,5 +1,6 @@
-[gd_scene load_steps=10 format=3 uid="uid://cdj5jud2ejoiy"]
+[gd_scene load_steps=11 format=3 uid="uid://cdj5jud2ejoiy"]
 
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_p1wat"]
 [ext_resource type="Texture2D" uid="uid://dhbnurl6ubqn7" path="res://art/shield droid/walk.png" id="2_4c3me"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g6yqo"]
@@ -56,14 +57,15 @@ animations = [{
 radius = 20.0
 height = 120.0
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_p1wat")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_gdeqo")
 animation = &"walk"
-frame = 1
-frame_progress = 0.612515
+frame = 4
+frame_progress = 0.0266852
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 17)

@@ -1,4 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://q3lmlcoicdkr"]
+[gd_scene load_steps=6 format=3 uid="uid://q3lmlcoicdkr"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_qwrs1"]
+[ext_resource type="PackedScene" uid="uid://cuu2he3bf86jn" path="res://scenes/objects.tscn" id="2_47rr6"]
+[ext_resource type="PackedScene" uid="uid://cdj5jud2ejoiy" path="res://scenes/player.tscn" id="3_dnfpc"]
+[ext_resource type="PackedScene" uid="uid://cmc3jh10h1pxq" path="res://scenes/level_1.tscn" id="4_y3g4a"]
 
 [sub_resource type="Curve2D" id="Curve2D_uglrw"]
 _data = {
@@ -7,13 +12,29 @@ _data = {
 point_count = 6
 
 [node name="Main" type="Node"]
+script = ExtResource("1_qwrs1")
+objects = ExtResource("2_47rr6")
 
-[node name="Object Timer" type="Timer" parent="."]
+[node name="ObjectTimer" type="Timer" parent="."]
 
-[node name="Start Timer" type="Timer" parent="."]
+[node name="StartTimer" type="Timer" parent="."]
+
+[node name="ScoreTimer" type="Timer" parent="."]
 
 [node name="Objects" type="Path2D" parent="."]
 curve = SubResource("Curve2D_uglrw")
 
 [node name="Object Spawn" type="PathFollow2D" parent="Objects"]
 position = Vector2(0, -5)
+
+[node name="level_1" parent="." instance=ExtResource("4_y3g4a")]
+collision_layer = 0
+collision_mask = 0
+
+[node name="Player" parent="." instance=ExtResource("3_dnfpc")]
+position = Vector2(272, 1013)
+collision_layer = 3
+collision_mask = 3
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(286, 599)
