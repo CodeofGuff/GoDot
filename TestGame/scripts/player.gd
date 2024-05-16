@@ -5,7 +5,7 @@ extends CharacterBody2D
 
 # Variables
 var speed = 225
-var gravity = 1000
+var gravity = 1200
 var jump_force = -600
 var jump_count = 0
 var extrajumps = 1  #if Input.is_action_just_pressed("accept"): extrajumps += 1
