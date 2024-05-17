@@ -32,6 +32,7 @@ position = Vector2(0, -5)
 [node name="level_1" parent="." instance=ExtResource("4_y3g4a")]
 
 [node name="level_2" parent="." instance=ExtResource("5_eyuu0")]
+visible = false
 
 [node name="Player" parent="." instance=ExtResource("3_dnfpc")]
 position = Vector2(272, 849)
