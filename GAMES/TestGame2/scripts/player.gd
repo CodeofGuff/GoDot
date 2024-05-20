@@ -7,9 +7,13 @@ var jump_force = -1000
 var jump_count = 0
 var extrajumps = 1  #if Input.is_action_just_pressed("accept"): extrajumps += 1
 
+
+
 func _ready():
 	%AnimatedSprite2D.play("idle")
-
+	$IdleTimer.start()
+	
+	
 func _physics_process(delta):
 	player_movement(delta)
 	player_jump(delta)
